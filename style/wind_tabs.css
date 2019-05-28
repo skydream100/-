@@ -1,0 +1,24 @@
+#wind_content{
+   position: relative;
+}
+/* 父元素高度自适应 */
+/* .wind_content:before,.wind_content:after{content:"";display: table;}  
+.wind_content:after{clear:both;}   
+.wind_content{zoom:1;}    */
+/* 父元素高度自适应 end */ 
+#tab li a{
+	display: inline-block;
+	text-decoration: none;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #999;
+}
+#content1,#content2,#content3{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+   left: 0;
+   background: #24282c;
+}
